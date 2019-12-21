@@ -3,26 +3,31 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <EditText
+        android:id="@+id/e1"
         android:layout_margin="30dp"
         android:hint="Enter Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/e2"
         android:layout_margin="30dp"
         android:hint="Roll no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/e3"
         android:layout_margin="30dp"
         android:hint="Admission no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/e4"
         android:layout_margin="30dp"
         android:hint="college name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:id="@+id/b1"
         android:text="SUBMIT"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
